@@ -10,7 +10,7 @@ bool isPalindrome(int x) {
     }
 
     int t = x;
-    int rev = 0;
+    long int rev = 0;
     while (x > 0){
         rev = rev * 10 + x % 10;
         x /= 10;
